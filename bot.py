@@ -1,8 +1,8 @@
-# (c) @RknDeveloperr
+# (c) @zion_owner
 # Rkn Developer 
 # Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Bots
-# Developer @RknDeveloperr
+# Telegram Channel @zaionmainchannel & @zionsupportchat
+# Developer @zion_owner
 
 import aiohttp, asyncio, warnings, pytz, datetime, logging, 
 logging.config, glob, sys, importlib
@@ -22,9 +22,9 @@ class Digital_FileRenameBot(Client):
     def __init__(self):
         super().__init__(
             name="Digital_FileRenameBot",
-            api_id=Config.API_ID,
-            api_hash=Config.API_HASH,
-            bot_token=Config.BOT_TOKEN,
+            api_id=Config.25595324,
+            api_hash=Config.0102b3dbf501dc0fb3176d4c9685eec8,
+            bot_token=Config.6692135428:AAFRyTlSHxw7pLIT1ZZVyCLaLqdLZ8j90JA,
             workers=200,
             plugins={"root": "plugins"},
             sleep_threshold=15)
